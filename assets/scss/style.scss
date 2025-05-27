@@ -12,6 +12,21 @@
     --green:  #b9ff66;
 }
 
+$btn-style: (
+    background: transparent,
+    color: white,
+    border: none,
+    font-size: 1em,
+    padding: 1.3em,
+    cursor: pointer,
+    border: 1px solid var(--grey),
+    border-radius: 50%,
+    display: flex,
+    align-items: center,
+    justify-content: center,
+    vertical-align: middle,
+    transition: all 0.3s ease,
+);
 
 html{
     scroll-behavior: smooth;
@@ -129,73 +144,56 @@ a{
                                     }      
                                   }   
                                   
-                                  
+                                  .rating{
+                                    margin-top: 0.5em;
+
+                                     i{
+                                        font-size: 1em;
+                                        color: var(--grey);
+                                      }
+
+                                       i.green{
+                                        color: var(--green);
+                                      }
+                                  }
                               }
                       }
                 }
           }
+
+        .buttons {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+
+            button {
+                background: transparent;
+                color: white;
+                font-size: 1em;
+                padding: 1.3em;
+                cursor: pointer;
+                border: 1px solid var(--grey);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                vertical-align: middle;
+                transition: all 0.3s ease;
+            }
+
+            button:hover {
+                background: var(--green);
+                color: var(--black);
+                border: 1px solid var(--black);
+            } 
+
+        }
+
       }
 }
 
 
-
-
-  
-
-
-
-  
-
-
-  
-
-
-  
-
-
-  .slide-card .slide-card-bottom .rating{
-    margin-top: 0.5em;
-  }
-
-  .slide-card .slide-card-bottom .rating i{
-    font-size: 1em;
-    color: var(--grey);
-  }
-
-  .slide-card .slide-card-bottom .rating i.green{
-    color: var(--green);
-  }
-
-  
-  .testimonials .buttons {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-  }
-  
-  .testimonials button {
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 1em;
-    padding: 1.3em;
-    cursor: pointer;
-    border: 1px solid var(--grey);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    transition: all 0.3s ease;
-  }
-  
-  .testimonials button:hover {
-    background: var(--green);
-    color: var(--black);
-    border: 1px solid var(--black);
-  } 
-
-/* END TESTIMONIALS */
+// END TESTIMONIALS 
