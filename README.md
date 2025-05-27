@@ -39,7 +39,7 @@ A clean, responsive testimonial carousel built using **HTML**, **SCSS**, and **v
 
 ## 📝 Note
 
-I had creating UI components from scratch everytime I needed one, so I've decided to make my own custom UI components of common features such as :
+I hate creating UI components from scratch everytime I needed one, so I've decided to make my own custom UI components of common website features such as :
 
 - Testimonial Slider
 - Mobile Hamburger menu
