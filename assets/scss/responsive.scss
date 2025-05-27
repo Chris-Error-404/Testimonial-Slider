@@ -1,3 +1,28 @@
+// TESTIMONIAL 
 @media (max-width: 1024px){
-    
+  html{
+    body{
+      padding: 0em 1em;
+    }
+  }
+
 }
+
+@media (max-width: 1024px){
+
+  .testimonials{
+      padding: 1em;
+
+        .slide-card{
+          min-width: 100%;
+          padding: 1em;
+        }
+
+          button{
+          padding: 1em;
+        }
+      
+  }
+
+}
+// END TESTIMONIAL 
