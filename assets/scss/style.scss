@@ -5,15 +5,21 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 :root{
     --black: #000;
-    --white: #000;
+    --white: #fff;
     --grey: #f3f3f3;
     --green:  #b9ff66;
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+    
+    body{
+        background-color: var(--white);
+    }
 }
 
 ul,li{

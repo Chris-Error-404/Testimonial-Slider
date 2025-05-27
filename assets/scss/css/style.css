@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #f3f3f3;
+  --green: #b9ff66;
+}
+
 html {
   scroll-behavior: smooth;
 }
-
-:root {
-  --black: #000;
-  --white: #000;
-  --grey: #f3f3f3;
-  --green: #b9ff66;
+html body {
+  background-color: var(--white);
 }
 
 ul, li {
