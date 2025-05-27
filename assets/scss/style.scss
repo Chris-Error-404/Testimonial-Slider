@@ -12,6 +12,7 @@ html{
 :root{
     --black: #000;
     --white: #000;
+    --blue: rgb(58, 166, 255);
 }
 
 ul,li{
@@ -59,7 +60,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--grey);
+    color: var(--white);
   }
   
   .slide-card{
@@ -67,7 +68,7 @@ a{
     flex-direction: column;
     gap: 1.5em;
     width: 60%;
-    border: 1px solid var(--green);
+    border: 1px solid var(--blue);
     padding: 2em;
     border-radius: 20px;
   }
@@ -83,7 +84,7 @@ a{
   .slide-card .slide-card-top p{
     font-size: 1em;
     font-weight: 400;
-    color: var(--grey);
+    color: var(--white);
   }
   
 /*   .slide-card .slide-card-top i{
@@ -116,13 +117,13 @@ a{
   .slide-card .slide-card-bottom .client-info h3{
     font-size: 1em;
     font-weight: 400;
-    color: var(--green);
+    color: var(--blue);
   }
   
   .slide-card .slide-card-bottom .client-info p{
     font-size: 0.8em;
     font-weight: 400;
-    color: var(--grey);
+    color: var(--white);
   }
 
   .slide-card .slide-card-bottom .rating{
@@ -131,11 +132,11 @@ a{
 
   .slide-card .slide-card-bottom .rating i{
     font-size: 1em;
-    color: var(--grey);
+    color: var(--white);
   }
 
   .slide-card .slide-card-bottom .rating i.green{
-    color: var(--green);
+    color: var(--blue);
   }
 
   
@@ -155,7 +156,7 @@ a{
     font-size: 1em;
     padding: 1.3em;
     cursor: pointer;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -165,7 +166,7 @@ a{
   }
   
   .testimonials button:hover {
-    background: var(--green);
+    background: var(--blue);
     color: var(--black);
     border: 1px solid var(--black);
   } 
